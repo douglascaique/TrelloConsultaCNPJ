@@ -1,0 +1,15 @@
+{
+    "name": "Consulta de CNPJ",
+    "description": "Power-Up que consulta CNPJ e retorna informações da empresa",
+    "icon": {
+      "url": "./icon.svg"
+    },
+    "capabilities": [
+      "card-buttons",
+      "card-detail-badges"
+    ],
+    "connectors": {
+      "iframe": true
+    }
+  }
+  
