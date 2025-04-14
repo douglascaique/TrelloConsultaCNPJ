@@ -1,15 +1,19 @@
 {
-    "name": "Consulta de CNPJ",
-    "description": "Power-Up que consulta CNPJ e retorna informações da empresa",
-    "icon": {
-      "url": "./icon.svg"
-    },
-    "capabilities": [
-      "card-buttons",
-      "card-detail-badges"
-    ],
-    "connectors": {
-      "iframe": true
+  "name": "Consulta CNPJ Power-Up",
+  "id": "consulta-cnpj-powerup",
+  "apiVersion": 1,
+  "permissions": [
+    "Read",
+    "Write"
+  ],
+  "capabilities": [
+    "card-buttons",
+    "card-badges",
+    "card-detail-badges"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "https://trello-consulta-cnpj.vercel.app/"
     }
   }
-  
+}
