@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Empresa</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+    p { margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <h3>Dados da Empresa</h3>
+  <div id="info"></div>
+
+  <script>
+    var t = TrelloPowerUp.iframe();
+
+    t.arg('info').then(function (info) {
+      const el = document.getElementById('info');
+      el.textContent = info;
+    });
+  </script>
+</body>
+</html>
